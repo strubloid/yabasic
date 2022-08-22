@@ -1,0 +1,24 @@
+{
+  "name": "yabasic",
+  "version": "1.0.0",
+  "description": "ya! basic",
+  "main": "starter.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strubloid/yabasic.git"
+  },
+  "keywords": [],
+  "author": "Strubloid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/strubloid/yabasic/issues"
+  },
+  "homepage": "https://github.com/strubloid/yabasic#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
