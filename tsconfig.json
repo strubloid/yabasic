@@ -4,7 +4,10 @@
         "module": "es2022",
         "declaration": true,
         "outDir": "./build",
-        "strict": true
+        "strict": true,
+        "paths": {
+            "components": ["src/components/*"]
+        }
     },
     "include": [
         "src/**/**/*"
