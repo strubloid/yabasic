@@ -1,1 +1,1 @@
-import 'yabasic'
+export * from "./yabasic";
