@@ -4,6 +4,7 @@
         "module": "es2022",
         "declaration": true,
         "outDir": "./build",
+        "baseUrl": "./build",
         "strict": true,
         "paths": {
             "components": ["src/components/*"]
