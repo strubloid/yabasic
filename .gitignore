@@ -1,3 +1,4 @@
 # Ignoring the IntelliJ folder and node_modules
 /.idea/
 /node_modules/
+/build/
