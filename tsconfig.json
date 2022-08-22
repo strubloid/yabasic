@@ -1,16 +1,19 @@
 {
     "compilerOptions": {
-        "declaration": true,
-        "sourceMap": true,
-        "noImplicitAny": false,
-        "noResolve": true,
-        "target": "es5",
-        "module": "commonjs",
         "moduleResolution": "node",
-        "outDir": "build"
+        "removeComments": false,
+        "sourceMap": true,
+        "target": "es2018",
+        "outDir": "build",
+        "declaration": true,
+        "strict": true,
+        "module": "esnext",
+        "noEmitOnError": true,
+        "lib": ["es2017"],
+        "esModuleInterop": false
     },
     "include": [
-        "src/**/**/*"
+        "src"
     ],
     "exclude": [
         "examples",

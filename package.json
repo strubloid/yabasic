@@ -2,7 +2,7 @@
     "name": "yabasic",
     "version": "1.0.17",
     "description": "ya! basic",
-    "main": "build/yabasic.js",
+    "main": "src/yabasic.js",
     "type": "module",
     "keywords": [
         "angular"
