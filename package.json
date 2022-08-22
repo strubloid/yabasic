@@ -1,6 +1,6 @@
 {
     "name": "yabasic",
-    "version": "1.0.17",
+    "version": "1.0.18",
     "description": "ya! basic",
     "main": "src/yabasic.js",
     "type": "module",
