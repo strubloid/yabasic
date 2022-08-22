@@ -4,25 +4,16 @@
         "sourceMap": true,
         "noImplicitAny": false,
         "noResolve": true,
-        "moduleResolution": "node",
-        "outDir": "build",
         "target": "es5",
         "module": "commonjs",
-        // "rootDir": "./",
-        "baseUrl": "./",
-        "paths": {
-            "components/*": [
-                "src/components/*"
-            ]
-        },
-        "typeRoots": [ "node_modules/@types"],
-        "types": [ "node"],
-        "esModuleInterop": true,
-        "forceConsistentCasingInFileNames": true,
-        "strict": true,
-        "skipLibCheck": true
+        "moduleResolution": "node",
+        "outDir": "build"
     },
     "include": [
         "src/**/**/*"
+    ],
+    "exclude": [
+        "examples",
+        "node_modules"
     ]
 }
