@@ -1,6 +1,6 @@
 {
     "name": "yabasic",
-    "version": "1.0.15",
+    "version": "1.0.16",
     "description": "ya! basic",
     "main": "lib/yabasic.js",
     "type": "module",
