@@ -1,12 +1,15 @@
 {
     "name": "yabasic",
-    "version": "1.0.10",
+    "version": "1.0.11",
     "description": "ya! basic",
     "main": "build/yabasic.js",
     "type": "module",
+    "keywords": [
+        "angular"
+    ],
     "scripts": {
         "clean": "rm -rf build && rm -rf node_modules/",
-        "build": "npm run clean && npm i && tsc",
+        "build": "npm run clean && npm i && npx tsc",
         "format": "prettier --write \"src/**/*.ts\" ",
         "lint": "tslint -p tsconfig.json"
     },
@@ -14,7 +17,6 @@
         "type": "git",
         "url": "git+https://github.com/strubloid/yabasic.git"
     },
-    "keywords": [],
     "author": "Strubloid",
     "license": "ISC",
     "bugs": {

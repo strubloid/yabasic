@@ -10,7 +10,7 @@
             "components": ["src/components/*"]
         },
         "types": [
-            "node"
+            "node",
         ]
     },
     "include": [
