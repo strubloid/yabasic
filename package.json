@@ -1,13 +1,12 @@
 {
     "name": "yabasic",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "ya! basic",
     "main": "build/yabasic.js",
     "type": "module",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "clean": "rm -rf build",
-        "build": "npm run clean && tsc",
+        "clean": "rm -rf build && rm -rf node_modules/",
+        "build": "npm run clean && npm i && tsc",
         "format": "prettier --write \"src/**/*.ts\" ",
         "lint": "tslint -p tsconfig.json"
     },
