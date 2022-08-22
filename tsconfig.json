@@ -1,11 +1,15 @@
 {
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Ya Basic Node 18",
     "compilerOptions": {
+        "lib": ["es2022"],
+        "module": "commonjs",
         "target": "es2022",
-        "module": "es2022",
-        "declaration": true,
-        "outDir": "./build",
-        "baseUrl": "./build",
         "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "outDir": "lib",
         "paths": {
             "components": ["src/components/*"]
         }
@@ -14,7 +18,7 @@
         "src/**/**/*"
     ],
     "exclude": [
-        "build",
+        "lib",
         "node_modules"
     ]
 }

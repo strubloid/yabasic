@@ -2,13 +2,13 @@
     "name": "yabasic",
     "version": "1.0.13",
     "description": "ya! basic",
-    "main": "build/yabasic.js",
+    "main": "lib/yabasic.js",
     "type": "module",
     "keywords": [
         "angular"
     ],
     "scripts": {
-        "clean": "rm -rf build && rm -rf node_modules/",
+        "clean": "rm -rf lib && rm -rf node_modules/",
         "build": "npm run clean && npm i && npx tsc",
         "format": "prettier --write \"src/**/*.ts\" ",
         "lint": "tslint -p tsconfig.json"
