@@ -8,10 +8,7 @@
         "strict": true,
         "paths": {
             "components": ["src/components/*"]
-        },
-        "types": [
-            "node",
-        ]
+        }
     },
     "include": [
         "src/**/**/*"
